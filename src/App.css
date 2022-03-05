@@ -1,38 +1,87 @@
 .App {
-  text-align: center;
+	text-align: center;
+	background-color: #f3f3f3;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	position: -webkit-sticky;
+	position: sticky;
+	display: flex;
+	/* justify-content: s; */
+	font-size: 6rem;
+	top: 0px;
+	height: auto;
+	font-weight: 600;
+	width: 100%;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.body {
+	display: flex;
+}
+.main {
+	/* background-color: red; */
+	width: 71%;
+	margin: 0 auto;
+	border: 1px solid rgba(157, 156, 156, 0.265);
+}
+.side {
+	width: 30%;
+	/* background-color: yellow; */
+	margin: 0 auto;
+	background-color: #f7f7f7;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+	display: flex;
+	flex-direction: column;
+
+	/* position: fixed */
+}
+.main_cont {
+	width: 70%;
+	/* margin: 0 auto; */
+	/* background-color: green; */
+	padding: 3rem 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*  */
+
+.side_fix {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	/* background-color: black; */
+	align-items: center;
+
+	border-radius: 1rem;
+	top: 10.6rem;
+	right: 2.7rem;
+}
+
+.smalltxt {
+	font-weight: 600;
+	font-size: 1.5rem;
+	width: 40rem;
+	height: 5rem;
+	/* background-color: blue; */
+	text-align: center;
+}
+.headings {
+	width: 71%;
+	/* background-color: green; */
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 8rem;
+	font-size: 1.7rem;
+	overflow: hidden;
+}
+
+.head {
+	background-color: #4e598c;
+	width: 15rem;
+	padding: 3rem 0;
+	border-left: 1px solid #fff;
+	color: white;
+	font-weight: 600;
 }

@@ -1,0 +1,44 @@
+.cont {
+	width: 29rem;
+	height: 9rem;
+	/* background-color: pink; */
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 1rem;
+	color: white;
+	/* border-bottom: 0.5px solid grey; */
+}
+.title {
+	font-size: 1.6rem;
+	margin-bottom: 0.8rem;
+	font-weight: 600;
+	text-align: left;
+	margin-left: 3rem;
+}
+.value {
+	font-size: 3rem;
+	font-weight: 600;
+	padding-right: 4rem;
+	text-align: right;
+}
+
+.org {
+	background-color: #f2994a;
+}
+
+.blu {
+	background-color: #4e598c;
+}
+
+.grn {
+	background-color: #6fcf97;
+}
+.ylw {
+	background-color: #ffc82d;
+}
+
+.rd {
+	background-color: #ff0000;
+}
