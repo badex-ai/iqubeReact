@@ -1,4 +1,4 @@
-.cont {
+.contState {
 	display: flex;
 	/* width: 100rem; */
 	background-color: #fff;
@@ -9,13 +9,49 @@
 	height: 3rem;
 	font-size: 1.6rem;
 	text-align: center;
+	/* position: static; */
 }
 
-.cont div {
+.newer {
+	position: static;
+}
+.new {
+	position: relative;
+}
+/* .search:before {
+	content: " ";
+	position: absolute;
+	top: 5px;
+	left: 7rem;
+	width: 6px;
+	height: 20px;
+	opacity: 0;
+	background-color: rgba(255, 255, 0, 0.523);
+	z-index: 0;
+	transform-origin: 50% 50%;
+	animation: mymove 1.3s ease infinite;
+} */
+
+/* 
+	 */
+
+@keyframes mymove {
+	0% {
+		/* background-color: yellow; */
+		transform: scaleX(1);
+		opacity: 0;
+	}
+	100% {
+		/* background-color: red; */
+		transform: scaleX(12);
+		opacity: 1;
+	}
+}
+.contState div {
 	width: 10rem;
 	/* background-color: blue; */
 }
 
-.cont:nth-child(odd) {
+.contState:nth-child(odd) {
 	background-color: lightblue;
 }
